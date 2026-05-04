@@ -4613,7 +4613,7 @@
 		)
 		(uuid "4f39d24d-deb4-4561-a0f4-1667970edfa5")
 	)
-	(text "Be sure to change these shunt capacitor values!"
+	(text "Be sure to change these shunt resistor values!"
 		(exclude_from_sim no)
 		(at 119.634 65.024 0)
 		(effects
@@ -5101,7 +5101,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 113.03) (xy 113.03 115.57)
+			(xy 121.92 113.03) (xy 121.92 115.57)
 		)
 		(stroke
 			(width 0)
@@ -5212,7 +5212,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 113.03) (xy 123.19 115.57)
+			(xy 110.49 113.03) (xy 110.49 115.57)
 		)
 		(stroke
 			(width 0)
@@ -5353,7 +5353,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 123.19) (xy 113.03 120.65)
+			(xy 121.92 123.19) (xy 121.92 120.65)
 		)
 		(stroke
 			(width 0)
@@ -5807,7 +5807,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 123.19) (xy 123.19 120.65)
+			(xy 110.49 123.19) (xy 110.49 120.65)
 		)
 		(stroke
 			(width 0)
@@ -6330,7 +6330,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 113.03 123.19 270)
+		(at 121.92 123.19 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6340,7 +6340,7 @@
 		)
 		(uuid "a4c8329b-d752-483c-b86a-8c02c0fea1b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.03 129.7433 90)
+			(at 121.92 129.7433 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6506,7 +6506,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 123.19 123.19 270)
+		(at 110.49 123.19 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6516,7 +6516,7 @@
 		)
 		(uuid "e9311e30-4e73-4348-a23e-3466a3152044")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.19 129.6828 90)
+			(at 110.49 129.6828 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6581,7 +6581,7 @@
 			)
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "ST4")
 					(unit 1)
@@ -6679,7 +6679,7 @@
 			(uuid "bb535f2d-94fd-4cbe-828c-f5fdae53ddda")
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "C6")
 					(unit 1)
@@ -6746,7 +6746,7 @@
 			(uuid "d15c9a27-41ef-4a71-9fa3-9175d86a8d01")
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR020")
 					(unit 1)
@@ -6812,7 +6812,7 @@
 			(uuid "c7650502-6ed5-4e79-b7ad-97cc88a7b595")
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR019")
 					(unit 1)
@@ -6878,7 +6878,7 @@
 			(uuid "d3c663ca-dec4-4daa-a573-f0362fa24760")
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR016")
 					(unit 1)
@@ -6888,7 +6888,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Resistor:4.7k_0603")
-		(at 113.03 118.11 90)
+		(at 121.92 118.11 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6897,7 +6897,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ddd601c-2cc3-4c47-9666-cdfd96f947e2")
 		(property "Reference" "R5"
-			(at 115.57 116.8399 90)
+			(at 124.46 116.8399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6906,7 +6906,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 115.57 119.3799 90)
+			(at 124.46 119.3799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6915,7 +6915,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Resistor:R_0603_1608Metric"
-			(at 117.348 118.11 0)
+			(at 126.238 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6924,7 +6924,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 121.92 118.11 0)
+			(at 130.81 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6933,7 +6933,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 124.46 118.11 0)
+			(at 133.35 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6942,7 +6942,7 @@
 			)
 		)
 		(property "PROD_ID" "RES-07857"
-			(at 119.634 118.11 0)
+			(at 128.524 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6957,7 +6957,7 @@
 			(uuid "82079ada-e967-467f-8e1d-e6e36c586aa9")
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "R5")
 					(unit 1)
@@ -7037,7 +7037,7 @@
 			(uuid "38ca73e6-5ac1-42f1-98d4-f983fcf35f06")
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "Y1")
 					(unit 1)
@@ -7101,7 +7101,7 @@
 			)
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "G2")
 					(unit 1)
@@ -7168,7 +7168,7 @@
 			(uuid "2ded5dae-4c20-40ab-8d03-4c67a78bac87")
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR015")
 					(unit 1)
@@ -7232,7 +7232,7 @@
 			)
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "FID3")
 					(unit 1)
@@ -7296,7 +7296,7 @@
 			)
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "FID4")
 					(unit 1)
@@ -7363,7 +7363,7 @@
 			(uuid "b03ae224-3872-4976-9c4e-adab88ad7a1e")
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR09")
 					(unit 1)
@@ -7434,7 +7434,7 @@
 					(unit 1)
 				)
 			)
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR0107")
 					(unit 1)
@@ -7515,7 +7515,7 @@
 			(uuid "4243ea36-aa2f-455c-9f7b-3c3904e4a72d")
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "J3")
 					(unit 1)
@@ -7594,7 +7594,7 @@
 			(uuid "ce7fba0a-df2b-42bd-9736-53f5c7e0dcdc")
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "D1")
 					(unit 1)
@@ -7671,7 +7671,7 @@
 			(uuid "ee9a1c05-6ace-4bc9-a0b3-1939a3d021e5")
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "R2")
 					(unit 1)
@@ -7734,7 +7734,7 @@
 			)
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "ST2")
 					(unit 1)
@@ -7801,7 +7801,7 @@
 			(uuid "3cd45cb0-5c91-45ff-b470-dc4f8cc90fcb")
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR013")
 					(unit 1)
@@ -7865,7 +7865,7 @@
 			)
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "G4")
 					(unit 1)
@@ -7928,7 +7928,7 @@
 			)
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "ST3")
 					(unit 1)
@@ -7999,7 +7999,7 @@
 					(unit 1)
 				)
 			)
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR0123")
 					(unit 1)
@@ -8009,7 +8009,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-PowerSymbol:3.3V")
-		(at 113.03 113.03 0)
+		(at 121.92 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8017,7 +8017,7 @@
 		(dnp no)
 		(uuid "78347b63-31e2-40cc-826f-4deba435e06f")
 		(property "Reference" "#PWR01"
-			(at 113.03 116.84 0)
+			(at 121.92 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8026,7 +8026,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 113.03 109.474 0)
+			(at 121.92 109.474 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8034,7 +8034,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 113.03 0)
+			(at 121.92 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8043,7 +8043,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 113.03 0)
+			(at 121.92 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8052,7 +8052,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"3.3V\""
-			(at 113.03 113.03 0)
+			(at 121.92 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8064,7 +8064,7 @@
 			(uuid "a8794fa5-2e0f-4ce8-9644-88a2512ecb60")
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR01")
 					(unit 1)
@@ -8135,7 +8135,7 @@
 					(unit 1)
 				)
 			)
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR0105")
 					(unit 1)
@@ -8201,7 +8201,7 @@
 			(uuid "c2d20503-73e2-44ce-b5c2-ff9a057f4ff4")
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR012")
 					(unit 1)
@@ -8299,7 +8299,7 @@
 			(uuid "f385a0ce-11e7-4164-9991-e51597410b32")
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "C4")
 					(unit 1)
@@ -8363,7 +8363,7 @@
 			)
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "ST1")
 					(unit 1)
@@ -8428,7 +8428,7 @@
 			(uuid "f20eb347-4863-4dd6-8d09-28ef0801ebd9")
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR010")
 					(unit 1)
@@ -8526,7 +8526,7 @@
 			(uuid "f379d403-aa14-41bc-acd0-a30bc5f4dce0")
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "C3")
 					(unit 1)
@@ -8624,7 +8624,7 @@
 			(uuid "6e55ac00-4454-4aca-a74b-d5f213a880a1")
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "C5")
 					(unit 1)
@@ -8634,7 +8634,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-PowerSymbol:3.3V")
-		(at 123.19 113.03 0)
+		(at 110.49 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8642,7 +8642,7 @@
 		(dnp no)
 		(uuid "847b074b-669b-44d1-b791-9dacc2623c3d")
 		(property "Reference" "#PWR02"
-			(at 123.19 116.84 0)
+			(at 110.49 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8651,7 +8651,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 123.19 109.474 0)
+			(at 110.49 109.474 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8659,7 +8659,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 113.03 0)
+			(at 110.49 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8668,7 +8668,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 113.03 0)
+			(at 110.49 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8677,7 +8677,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"3.3V\""
-			(at 123.19 113.03 0)
+			(at 110.49 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8689,7 +8689,7 @@
 			(uuid "cbec6eb7-15b4-403e-9754-a5c9669ff6e6")
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR02")
 					(unit 1)
@@ -8787,7 +8787,7 @@
 			(uuid "fc59fc74-9487-4331-bf2c-ea9593b6570b")
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "C7")
 					(unit 1)
@@ -8797,7 +8797,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Resistor:4.7k_0603")
-		(at 123.19 118.11 90)
+		(at 110.49 118.11 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8806,7 +8806,7 @@
 		(fields_autoplaced yes)
 		(uuid "86814a0b-17cb-48cc-bfa2-2c3b197894c7")
 		(property "Reference" "R4"
-			(at 125.73 116.8399 90)
+			(at 113.03 116.8399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8815,7 +8815,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 125.73 119.3799 90)
+			(at 113.03 119.3799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8824,7 +8824,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Resistor:R_0603_1608Metric"
-			(at 127.508 118.11 0)
+			(at 114.808 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8833,7 +8833,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 132.08 118.11 0)
+			(at 119.38 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8842,7 +8842,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 134.62 118.11 0)
+			(at 121.92 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8851,7 +8851,7 @@
 			)
 		)
 		(property "PROD_ID" "RES-07857"
-			(at 129.794 118.11 0)
+			(at 117.094 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8866,7 +8866,7 @@
 			(uuid "1883dc10-3fea-4b2f-b565-a96aa5d71bfb")
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "R4")
 					(unit 1)
@@ -9086,7 +9086,7 @@
 			(uuid "49b3054d-6b77-4fa3-b8c6-0ee578b971e9")
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "IC1")
 					(unit 1)
@@ -9153,7 +9153,7 @@
 			(uuid "718e4c4b-3bee-4740-bab6-ebc97912b44c")
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR014")
 					(unit 1)
@@ -9232,7 +9232,7 @@
 			(uuid "665c9ea6-cb90-4147-a1ef-805b0635559e")
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "R3")
 					(unit 1)
@@ -9307,7 +9307,7 @@
 			(uuid "21f9b052-e848-4e1b-a6d1-6cffabda7952")
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "J4")
 					(unit 1)
@@ -9372,7 +9372,7 @@
 			(uuid "79a8b5d0-54cc-418a-a5fe-d0ba89eee9f5")
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR0106")
 					(unit 1)
@@ -9439,7 +9439,7 @@
 			(uuid "4f6f5e81-206d-4b7a-9fde-fb5088a5961b")
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR08")
 					(unit 1)
@@ -9503,7 +9503,7 @@
 			)
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "G3")
 					(unit 1)
@@ -9567,7 +9567,7 @@
 			)
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "FID1")
 					(unit 1)
@@ -9665,7 +9665,7 @@
 			(uuid "f549a687-6717-4822-83fe-1f8647ed8049")
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "C8")
 					(unit 1)
@@ -9756,7 +9756,7 @@
 			(uuid "7cfed1e1-397e-43bd-ad44-c161fbf48fd1")
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "J1")
 					(unit 1)
@@ -9826,7 +9826,7 @@
 			(uuid "42777183-dc0e-4cd5-bcfb-2977a711eaef")
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "JP1")
 					(unit 1)
@@ -9891,7 +9891,7 @@
 			(uuid "7266dbb7-a2c9-489d-b131-245ffebaa09f")
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR0108")
 					(unit 1)
@@ -9955,7 +9955,7 @@
 			)
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "G1")
 					(unit 1)
@@ -10038,7 +10038,7 @@
 			(uuid "14cbcec2-2101-4ca2-8398-0937645e2630")
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "J5")
 					(unit 1)
@@ -10104,7 +10104,7 @@
 			(uuid "b51f18b5-81bd-452d-823e-e37b5dbb8deb")
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR018")
 					(unit 1)
@@ -10169,7 +10169,7 @@
 			(uuid "600d6061-458f-4945-9c40-67bfe0ca9536")
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR0124")
 					(unit 1)
@@ -10246,7 +10246,7 @@
 			(uuid "1f68ff53-2a4f-4994-818c-07796d3f0f93")
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "R1")
 					(unit 1)
@@ -10311,7 +10311,7 @@
 			(uuid "b7f71c1a-dc19-41d4-bb00-03938a86032e")
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR0122")
 					(unit 1)
@@ -10402,7 +10402,7 @@
 			(uuid "f62974a6-6ada-4b1f-8eae-55afd704de0e")
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "J2")
 					(unit 1)
@@ -10466,7 +10466,7 @@
 			)
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "FID2")
 					(unit 1)
@@ -10564,7 +10564,7 @@
 			(uuid "79738e2d-2d28-4307-a54d-53523299fc4b")
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "C9")
 					(unit 1)
@@ -10631,7 +10631,7 @@
 			(uuid "dee7ca7c-b744-4aa4-9e3e-f699cc258b5e")
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR017")
 					(unit 1)
@@ -10729,7 +10729,7 @@
 			(uuid "e445d798-04dd-43e8-87f5-627f5268d05f")
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "C10")
 					(unit 1)
@@ -10795,7 +10795,7 @@
 			(uuid "a72175fa-5cd7-4e4d-ad9c-c479fa5e8f56")
 		)
 		(instances
-			(project "SparkFun_Qwiic_Current"
+			(project "SparkFun_Qwiic_Current_Sensor_ADE7953"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR011")
 					(unit 1)
