@@ -98,6 +98,10 @@
         [
           "silk_edge_clearance|141039650|85406000|8eae2629-b3b9-46da-8360-700b2a58a511|5adadc09-b611-458b-8c8f-0aecc38f82f2",
           ""
+        ],
+        [
+          "starved_thermal|134466000|99198500|c43c8e43-4c50-4081-bbac-68f3d5ee0053|a0fad83d-d1ad-4b98-88ec-c17093dc4812|F.Cu",
+          ""
         ]
       ],
       "meta": {
@@ -232,9 +236,9 @@
       ],
       "track_widths": [
         0.0,
-        0.1778,
-        0.4064,
-        0.5588
+        0.1524,
+        0.254,
+        0.508
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
