@@ -1947,7 +1947,7 @@
 				)
 			)
 		)
-		(property "Value" "3.579MHz"
+		(property "Value" "3.579545MHz"
 			(at 0 2.05 0)
 			(layer "F.Fab")
 			(uuid "d1a290f4-728a-475c-931f-2acd278cf1b8")
@@ -1958,7 +1958,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://abracon.com/datasheets/ASEDV.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8913/SG-210STF_X1G0041710031_en.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1984,7 +1984,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "XTAL-25500"
+		(property "PROD_ID" "XTAL-28569"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4565,6 +4565,19 @@
 				)
 			)
 		)
+		(property "PROD_ID" "IC-28571"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d684801d-c8bc-4766-aa09-8ce52617259c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/900a99d9-f37b-4af9-995b-62c2622dd053")
 		(sheetname "/")
 		(sheetfile "SparkFun_Qwiic_Current_Sensor_ADE7953.kicad_sch")
@@ -5620,7 +5633,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RES-09823"
+		(property "PROD_ID" "RES-28570"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6513,7 +6526,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RES-09823"
+		(property "PROD_ID" "RES-28570"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14841,7 +14854,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "900 mils"
+		(gr_text "22.86 mm"
 			(at 115.4461 99.376 90)
 			(layer "Dwgs.User")
 			(uuid "44ae2d15-d915-4e49-be23-ddcb944d57c9")
@@ -14879,7 +14892,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "1000 mils"
+		(gr_text "25.4 mm"
 			(at 113.2236 98.106 90)
 			(layer "Dwgs.User")
 			(uuid "5f70a531-96c8-49fb-a68d-c7cd16a210e8")
@@ -14917,7 +14930,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "1000 mils"
+		(gr_text "25.4 mm"
 			(at 135.966 119.1786 0)
 			(layer "Dwgs.User")
 			(uuid "7116aa76-7990-4398-81ac-a259ceabea3a")
@@ -14955,7 +14968,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "900 mils"
+		(gr_text "22.86 mm"
 			(at 134.696 116.6386 0)
 			(layer "Dwgs.User")
 			(uuid "84ac7b86-13e6-4ddd-8ca8-728b62d644df")
@@ -14992,7 +15005,7 @@
 			(extension_height 0.58642)
 			(extension_offset 0.5)
 		)
-		(gr_text "100 mils"
+		(gr_text "2.54 mm"
 			(at 139.4585 114.13975 0)
 			(layer "Dwgs.User")
 			(uuid "8b0d82b2-03f4-454f-996b-d661e12f0a2a")
@@ -15030,7 +15043,7 @@
 			(extension_height 0.58642)
 			(extension_offset 0.5)
 		)
-		(gr_text "500 mils"
+		(gr_text "12.7 mm"
 			(at 117.6686 104.456 90)
 			(layer "Dwgs.User")
 			(uuid "8daceb47-3559-48b9-bd86-26e9967b5cff")
@@ -15068,7 +15081,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "100 mils"
+		(gr_text "2.54 mm"
 			(at 121.361 100.9635 90)
 			(layer "Dwgs.User")
 			(uuid "911df21b-384f-4459-87b7-a09bc296d202")
@@ -15107,7 +15120,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "250 mils"
+		(gr_text "6.35 mm"
 			(at 128.981 115.886 0)
 			(layer "Dwgs.User")
 			(uuid "d790e351-e6db-4a0b-a93b-31c818ae7b3c")

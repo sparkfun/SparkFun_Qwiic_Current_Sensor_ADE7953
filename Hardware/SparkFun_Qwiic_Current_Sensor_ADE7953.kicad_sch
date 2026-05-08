@@ -1543,7 +1543,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SparkFun-Clock:Oscillator_24MHz_3.2x2.5mm"
+		(symbol "SparkFun-Clock:Oscillator_3.579MHz_3.2x2.5mm"
 			(pin_names
 				(offset 0.254)
 			)
@@ -1558,7 +1558,7 @@
 					)
 				)
 			)
-			(property "Value" "24MHz"
+			(property "Value" "3.579545MHz"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -1575,7 +1575,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://abracon.com/datasheets/ASEDV.pdf"
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8913/SG-210STF_X1G0041710031_en.pdf"
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -1593,7 +1593,7 @@
 					(hide yes)
 				)
 			)
-			(property "PROD_ID" "XTAL-25500"
+			(property "PROD_ID" "XTAL-28569"
 				(at 0 -15.24 0)
 				(effects
 					(font
@@ -1602,7 +1602,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "SparkFun quartz ceramic resonator oscillator clock"
+			(property "ki_keywords" "SparkFun Simple Packaged Crystal Oscillator Clock"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1620,7 +1620,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Oscillator_24MHz_3.2x2.5mm_0_1"
+			(symbol "Oscillator_3.579MHz_3.2x2.5mm_0_1"
 				(polyline
 					(pts
 						(xy -3.175 -2.8575) (xy -1.905 -2.8575)
@@ -1849,7 +1849,7 @@
 					)
 				)
 			)
-			(symbol "Oscillator_24MHz_3.2x2.5mm_1_1"
+			(symbol "Oscillator_3.579MHz_3.2x2.5mm_1_1"
 				(rectangle
 					(start -7.62 6.35)
 					(end 7.62 -6.35)
@@ -3087,6 +3087,15 @@
 						(size 1.27 1.27)
 					)
 					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "PROD_ID" "IC-28571"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 					(hide yes)
 				)
 			)
@@ -5214,7 +5223,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SparkFun-Resistor:5.62k_0603"
+		(symbol "SparkFun-Resistor:5.6_0603_0.1%"
 			(pin_numbers
 				(hide yes)
 			)
@@ -5232,7 +5241,7 @@
 					)
 				)
 			)
-			(property "Value" "5.62k"
+			(property "Value" "5.6"
 				(at 0 2.54 0)
 				(effects
 					(font
@@ -5267,7 +5276,7 @@
 					(hide yes)
 				)
 			)
-			(property "PROD_ID" "RES-09823"
+			(property "PROD_ID" "RES-28570"
 				(at 0 -6.604 0)
 				(effects
 					(font
@@ -5294,7 +5303,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "5.62k_0603_0_1"
+			(symbol "5.6_0603_0.1%_0_1"
 				(polyline
 					(pts
 						(xy -1.524 0) (xy -1.143 1.016) (xy -0.762 0) (xy -0.381 -1.016) (xy 0 0)
@@ -5320,7 +5329,7 @@
 					)
 				)
 			)
-			(symbol "5.62k_0603_1_1"
+			(symbol "5.6_0603_0.1%_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 1.016)
@@ -10500,7 +10509,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Clock:Oscillator_24MHz_3.2x2.5mm")
+		(lib_id "SparkFun-Clock:Oscillator_3.579MHz_3.2x2.5mm")
 		(at 190.5 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10517,7 +10526,7 @@
 				)
 			)
 		)
-		(property "Value" "3.579MHz"
+		(property "Value" "3.579545MHz"
 			(at 190.5 119.38 0)
 			(effects
 				(font
@@ -10534,7 +10543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://abracon.com/datasheets/ASEDV.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8913/SG-210STF_X1G0041710031_en.pdf"
 			(at 190.5 138.43 0)
 			(effects
 				(font
@@ -10552,7 +10561,7 @@
 				(hide yes)
 			)
 		)
-		(property "PROD_ID" "XTAL-25500"
+		(property "PROD_ID" "XTAL-28569"
 			(at 190.5 143.51 0)
 			(effects
 				(font
@@ -10979,6 +10988,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "IC-28571"
+			(at 213.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -12930,7 +12948,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Resistor:5.62k_0603")
+		(lib_id "SparkFun-Resistor:5.6_0603_0.1%")
 		(at 120.65 36.83 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12948,7 +12966,7 @@
 			)
 		)
 		(property "Value" "5.6"
-			(at 124.206 37.592 90)
+			(at 123.952 37.592 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12982,7 +13000,7 @@
 				(hide yes)
 			)
 		)
-		(property "PROD_ID" "RES-09823"
+		(property "PROD_ID" "RES-28570"
 			(at 127.254 36.83 0)
 			(effects
 				(font
@@ -13073,7 +13091,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Resistor:5.62k_0603")
+		(lib_id "SparkFun-Resistor:5.6_0603_0.1%")
 		(at 93.98 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13125,7 +13143,7 @@
 				(hide yes)
 			)
 		)
-		(property "PROD_ID" "RES-09823"
+		(property "PROD_ID" "RES-28570"
 			(at 100.584 58.42 0)
 			(effects
 				(font
