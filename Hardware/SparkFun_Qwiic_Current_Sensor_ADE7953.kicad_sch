@@ -10892,7 +10892,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SparkFun-Semiconductor-Standard:QFN-28-1EP_4x4mm_P0.4mm_EP2.6x2.6mm"
+		(property "Footprint" "SparkFun-Semiconductor-Standard:QFN-28-1EP_4x4_5mmx5mm"
 			(at 250.19 145.72 0)
 			(effects
 				(font

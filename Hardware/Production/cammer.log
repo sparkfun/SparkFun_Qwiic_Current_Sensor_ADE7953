@@ -1,1 +1,19 @@
-2026-05-08 11:02:55,941 - cammer_logger - INFO - CAMmer cancelled
+2026-05-11 11:50:37,911 - cammer_logger - INFO - Running CAMmer
+2026-05-11 11:50:37,911 - cammer_logger - INFO - ['-l', 'F.Cu,B.Cu,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,F.Mask,B.Mask', '-e', 'Edge.Cuts,User.Comments']
+2026-05-11 11:50:37,914 - cammer_logger - INFO - CAMMER START: 2026-05-11T11:50:37.914661
+2026-05-11 11:50:40,392 - cammer_logger - INFO - 
+START: 2026-05-11T11:50:37.914661
+Board saved by user.
+Zones filled by CAMmer.
+Renaming C:\Users\geoff.mcintyre\Documents\GitHub\SparkFun_Qwiic_Current_Sensor_ADE7953\Hardware\SparkFun_Qwiic_Current_Sensor_ADE7953-F_Cu.gbr to C:\Users\geoff.mcintyre\Documents\GitHub\SparkFun_Qwiic_Current_Sensor_ADE7953\Hardware\SparkFun_Qwiic_Current_Sensor_ADE7953.GTL
+Renaming C:\Users\geoff.mcintyre\Documents\GitHub\SparkFun_Qwiic_Current_Sensor_ADE7953\Hardware\SparkFun_Qwiic_Current_Sensor_ADE7953-B_Cu.gbr to C:\Users\geoff.mcintyre\Documents\GitHub\SparkFun_Qwiic_Current_Sensor_ADE7953\Hardware\SparkFun_Qwiic_Current_Sensor_ADE7953.GBL
+Renaming C:\Users\geoff.mcintyre\Documents\GitHub\SparkFun_Qwiic_Current_Sensor_ADE7953\Hardware\SparkFun_Qwiic_Current_Sensor_ADE7953-F_Paste.gbr to C:\Users\geoff.mcintyre\Documents\GitHub\SparkFun_Qwiic_Current_Sensor_ADE7953\Hardware\SparkFun_Qwiic_Current_Sensor_ADE7953.GTP
+Renaming C:\Users\geoff.mcintyre\Documents\GitHub\SparkFun_Qwiic_Current_Sensor_ADE7953\Hardware\SparkFun_Qwiic_Current_Sensor_ADE7953-B_Paste.gbr to C:\Users\geoff.mcintyre\Documents\GitHub\SparkFun_Qwiic_Current_Sensor_ADE7953\Hardware\SparkFun_Qwiic_Current_Sensor_ADE7953.GBP
+Renaming C:\Users\geoff.mcintyre\Documents\GitHub\SparkFun_Qwiic_Current_Sensor_ADE7953\Hardware\SparkFun_Qwiic_Current_Sensor_ADE7953-F_Silkscreen.gbr to C:\Users\geoff.mcintyre\Documents\GitHub\SparkFun_Qwiic_Current_Sensor_ADE7953\Hardware\SparkFun_Qwiic_Current_Sensor_ADE7953.GTO
+Renaming C:\Users\geoff.mcintyre\Documents\GitHub\SparkFun_Qwiic_Current_Sensor_ADE7953\Hardware\SparkFun_Qwiic_Current_Sensor_ADE7953-B_Silkscreen.gbr to C:\Users\geoff.mcintyre\Documents\GitHub\SparkFun_Qwiic_Current_Sensor_ADE7953\Hardware\SparkFun_Qwiic_Current_Sensor_ADE7953.GBO
+Renaming C:\Users\geoff.mcintyre\Documents\GitHub\SparkFun_Qwiic_Current_Sensor_ADE7953\Hardware\SparkFun_Qwiic_Current_Sensor_ADE7953-F_Mask.gbr to C:\Users\geoff.mcintyre\Documents\GitHub\SparkFun_Qwiic_Current_Sensor_ADE7953\Hardware\SparkFun_Qwiic_Current_Sensor_ADE7953.GTS
+Renaming C:\Users\geoff.mcintyre\Documents\GitHub\SparkFun_Qwiic_Current_Sensor_ADE7953\Hardware\SparkFun_Qwiic_Current_Sensor_ADE7953-B_Mask.gbr to C:\Users\geoff.mcintyre\Documents\GitHub\SparkFun_Qwiic_Current_Sensor_ADE7953\Hardware\SparkFun_Qwiic_Current_Sensor_ADE7953.GBS
+Renaming C:\Users\geoff.mcintyre\Documents\GitHub\SparkFun_Qwiic_Current_Sensor_ADE7953\Hardware\SparkFun_Qwiic_Current_Sensor_ADE7953-Edge_Cuts.gbr to C:\Users\geoff.mcintyre\Documents\GitHub\SparkFun_Qwiic_Current_Sensor_ADE7953\Hardware\SparkFun_Qwiic_Current_Sensor_ADE7953.GKO
+Drill report: C:\Users\geoff.mcintyre\Documents\GitHub\SparkFun_Qwiic_Current_Sensor_ADE7953\Hardware\drill_report.rpt
+
+2026-05-11 11:50:41,966 - cammer_logger - INFO - CAMmer complete
