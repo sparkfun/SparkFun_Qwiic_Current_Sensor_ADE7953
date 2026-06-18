@@ -7,7 +7,7 @@
 	(title_block
 		(title "SparkFun Qwiic Current Sensor ADE7953")
 		(date "2026-05-04")
-		(rev "v01")
+		(rev "v10")
 		(company "SparkFun Electronics")
 		(comment 1 "Designed by: Geoff McIntyre")
 	)
@@ -5411,7 +5411,7 @@
 		)
 		(uuid "7c85e1f8-473f-427d-9ba3-3a5ab5a31548")
 	)
-	(text "Default 7-bit I²C Address: 0x38\n"
+	(text "7-bit I²C Address: 0x38\n"
 		(exclude_from_sim no)
 		(at 213.614 101.6 0)
 		(effects
@@ -5442,6 +5442,17 @@
 			)
 		)
 		(uuid "bd2cdf95-2c49-4843-b6ba-1c844f813c5c")
+	)
+	(text "Cut jumper to remove I2C pullups"
+		(exclude_from_sim no)
+		(at 119.38 132.842 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 132 132 1)
+			)
+		)
+		(uuid "c9baf6e3-afb3-4f82-b111-fb9cb232f21d")
 	)
 	(text "Gain Table"
 		(exclude_from_sim no)
