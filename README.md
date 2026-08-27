@@ -1,6 +1,6 @@
 # SparkFun Qwiic Current Sensor - ADE7953
 
-[![SparkFun Qwiic Current Sensor - ADE7953](Documents/images/ADE7953.png)](https://www.sparkfun.com/products/XXXXX)
+[![SparkFun Qwiic Current Sensor - ADE7953](Documents/images/ADE7953.png)](https://www.sparkfun.com/products/31409)
 
 The SparkFun Qwiic Current Sensor is a dual-channel, non-invasive current measurement breakout built around the ADE7953 energy metering IC from Analog Devices. Using inexpensive SCT-013 split-core current transformers (CT clamps), you can measure AC current on up to two channels without ever breaking a wire. The board accepts CT input through a standard 3.5mm TRRS audio jack or through the A+/A- and B+/B- terminal connections, giving you flexibility for both quick prototyping and permanent installations.
 
@@ -20,7 +20,7 @@ Designed for our [Qwiic ecosystem](https://www.sparkfun.com/qwiic), the ADE7953 
 
 ## Product Versions
 
-* **[SEN-XXXXX](https://www.sparkfun.com/products/XXXXX)** - Initial release of the SparkFun Qwiic Current Sensor - ADE7953.
+* **[SEN-XXXXX](https://www.sparkfun.com/products/31409)** - Initial release of the SparkFun Qwiic Current Sensor - ADE7953.
 
 ## License Information
 
