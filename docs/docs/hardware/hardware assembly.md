@@ -10,7 +10,7 @@ Start by connecting the Non-Invasive Current Sensor - ADE7953 (Qwiic) to a Qwiic
 
 Now plug the current transformer into the Non-Invasive Current Sensor's 3.5mm TRRS jack. We recommend leaving the clamp open and disconnected from an AC load prior to performing calibration using the SparkFun ADE7953 Arduino Library to reduce the noise from the clamp.
 
-[![Current Transformer connected to 3.5mm TRRS Jack](/docs/static/)]
+[![Current Transformer connected to 3.5mm TRRS Jack](/img/QwiicCurrentSensorADE7953-Clamp.jpg)]
 
 ## Channel A and Channel B Direct Connection
 

@@ -2,7 +2,9 @@
 
 ## ADE7953 Single Phase Metering IC
 
+The ADE7953 is a single phase energy measurement IC. It measures both voltage and current along with active and reactive energy. It can also measure instantaneous rms (IRMS) voltage and current. It operates using three high-accuracy sigma-delta ADCs with two current channels. Both channels have a Programmable Gain Amplifier which can also be fine tuned with a digital gain. The ADE7953 communicates over I<sup>2</sup>C, UART and SPI (the SPI pins are *not* broken out on this Qwiic breakout).
 
+The ADE7953 also has dedicated pins for zero-crossing for voltage (not available on this Qwiic breakout) and current to measure line frequency, cycles or to synchronize measurements with the line frequency. It supports EN 50470-1, EN 50470-3, IEC 62053-21, IEC 62053-21, IEC 62053-22 and IEC 62053-23 standards. It accepts a supply voltage up to 3.7V so it works perfectly at the 3.3V of the Qwiic ecosystem. For complete information on the ADE7953, refer to the [datasheet](/ref/ADE7953.pdf).
 
 ## Connectors
 

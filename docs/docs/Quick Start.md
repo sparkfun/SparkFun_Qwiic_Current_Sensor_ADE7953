@@ -9,7 +9,7 @@ In this Quick Start Guide we'll go over how to connect the Non-Invasive Current 
 * Connect the board to a computer over USB.
 * Have the wire for your AC load ready to insert into the Current Transformer's clamp once calibration in the Arduino example finishes.
 
-[![Photo of completed Non-Invasive Current Sensor assembly with RedBoard IoT and Split Core Current Transformer]()]
+[![Photo of completed Non-Invasive Current Sensor assembly with RedBoard IoT and Split Core Current Transformer](/img/QwiicCurrentSensorADE7953-Clamp.jpg)]
 
 ## Arduino Example
 
