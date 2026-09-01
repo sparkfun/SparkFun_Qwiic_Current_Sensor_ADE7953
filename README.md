@@ -18,7 +18,7 @@ Designed for our [Qwiic ecosystem](https://www.sparkfun.com/qwiic), the ADE7953 
 
 ## Product Versions
 
-* **[SEN-XXXXX](https://www.sparkfun.com/sparkfun-non-invasive-current-sensor-ade7953-qwiic.html)** - Initial release of the SparkFun Qwiic Current Sensor - ADE7953.
+* **[SEN-31409](https://www.sparkfun.com/sparkfun-non-invasive-current-sensor-ade7953-qwiic.html)** - Initial release of the SparkFun Qwiic Current Sensor - ADE7953.
 
 ## License Information
 
